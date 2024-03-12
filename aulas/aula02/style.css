@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex: 3;
+    background-color: black;
+    color: white;
+}
+
+main {
+    flex: 6;
+}
+
+footer {
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    min-width: 300px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
