@@ -52,7 +52,6 @@ function efetuarLogin() {
         inputEmail.focus();
     }
 
-
     const inputSenha = document.querySelector('input[type="password"]');
 
     // chamada a API REST
